@@ -11,44 +11,10 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Header" transform="translate(40 35)">
-    <g id="BG" transform="translate(0 -0.266)">
-      <g transform="matrix(1, 0, 0, 1, -40, -34.73)" filter="url(#ben-duchac-3fJOXw1RbPo-unsplash)">
-        <path id="ben-duchac-3fJOXw1RbPo-unsplash-2" data-name="ben-duchac-3fJOXw1RbPo-unsplash" d="M0,0H1920a0,0,0,0,1,0,0V880a200,200,0,0,1-200,200H200A200,200,0,0,1,0,880V0A0,0,0,0,1,0,0Z" transform="translate(40 35)" fill="url(#pattern)"/>
-      </g>
-      <path id="ben-duchac-3fJOXw1RbPo-unsplash-3" data-name="ben-duchac-3fJOXw1RbPo-unsplash" d="M0,0H1920a0,0,0,0,1,0,0V880a200,200,0,0,1-200,200H200A200,200,0,0,1,0,880V0A0,0,0,0,1,0,0Z" transform="translate(0 0.266)" fill="#3b3735" opacity="0.5"/>
+  <g id="BG" transform="translate(40 34.734)">
+    <g transform="matrix(1, 0, 0, 1, -40, -34.73)" filter="url(#ben-duchac-3fJOXw1RbPo-unsplash)">
+      <path id="ben-duchac-3fJOXw1RbPo-unsplash-2" data-name="ben-duchac-3fJOXw1RbPo-unsplash" d="M0,0H1920a0,0,0,0,1,0,0V880a200,200,0,0,1-200,200H200A200,200,0,0,1,0,880V0A0,0,0,0,1,0,0Z" transform="translate(40 35)" fill="url(#pattern)"/>
     </g>
-    <g id="Menu" transform="translate(201 59.734)">
-      <g id="Group_87" data-name="Group 87">
-        <g id="Group_188" data-name="Group 188" transform="translate(-16 -0.5)">
-          <line id="Line_1" data-name="Line 1" x2="27" y2="27" transform="translate(123.5 12.766)" fill="none" stroke="#e76f51" stroke-linecap="round" stroke-width="3"/>
-          <text id="Home_Destination_Near_me_Events_Blog_Gallery_About_Contact_us" data-name="Home         Destination         Near me         Events         Blog         Gallery         About         Contact us" transform="translate(115 33.266)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Home         </tspan><tspan y="0" xml:space="preserve" fill="#d2d2d2">Destination         Near me         Events         Blog         Gallery         About         Contact us</tspan></text>
-        </g>
-        <g id="Group_86" data-name="Group 86">
-          <circle id="Ellipse_39" data-name="Ellipse 39" cx="25" cy="25" r="25" transform="translate(0 0.266)" fill="#e76f51"/>
-          <path id="Path_623" data-name="Path 623" d="M18.962-15.292a4.18,4.18,0,0,1-.3,1.237A3.231,3.231,0,0,1,17.951-13a3.642,3.642,0,0,1-1.139.756,5.089,5.089,0,0,1-1.6.373,7.131,7.131,0,0,1-1.757-.059q-.854-.137-1.7-.314t-1.678-.324A6.871,6.871,0,0,0,8.4-12.661a5.757,5.757,0,0,0-1.394.294,3.813,3.813,0,0,0-1.217.677,3.266,3.266,0,0,0-.854,1.119,3.674,3.674,0,0,0-.324,1.6,3.04,3.04,0,0,0,.236,1.227,4.13,4.13,0,0,0,.54.923,3.008,3.008,0,0,0,.579.579q.275.2.353.177a6.332,6.332,0,0,1-2.748.2A4.347,4.347,0,0,1,1.53-6.762,4.028,4.028,0,0,1,.313-8.46a4.731,4.731,0,0,1-.275-2.2,5.461,5.461,0,0,1,.638-2.12,5.239,5.239,0,0,1,1.355-1.6,6.385,6.385,0,0,1,1.953-1.031,8.462,8.462,0,0,1,2.434-.412,10.11,10.11,0,0,1,2.365.2q1.148.236,2.248.55t2.13.6a10.79,10.79,0,0,0,2.022.363,5.8,5.8,0,0,0,1.934-.167A4.707,4.707,0,0,0,18.962-15.292ZM7.93-9.343q.039-.118.147-.471a3.866,3.866,0,0,0,.147-.756,2.423,2.423,0,0,0-.049-.785.807.807,0,0,0-.422-.559q.393.02.471.02h.51a4.481,4.481,0,0,1,2.13.53,3.007,3.007,0,0,1,1.129,1.129,2.883,2.883,0,0,1,.353,1.384,3.964,3.964,0,0,1-.2,1.3L9.971-1.118Q9.932-1,9.824-.647a3.866,3.866,0,0,0-.147.756,2.423,2.423,0,0,0,.049.785.807.807,0,0,0,.422.559q-.393-.02-.471-.02h-.51A4.481,4.481,0,0,1,7.037.9,3.007,3.007,0,0,1,5.908-.225a2.883,2.883,0,0,1-.353-1.384,3.964,3.964,0,0,1,.2-1.3Z" transform="translate(15.989 32.095)" fill="#fff"/>
-        </g>
-      </g>
-      <g id="Group_88" data-name="Group 88" transform="translate(1387.635)">
-        <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(0.365 0.266)" fill="none" stroke="#fff" stroke-width="1">
-          <rect width="130" height="50" rx="25" stroke="none"/>
-          <rect x="0.5" y="0.5" width="129" height="49" rx="24.5" fill="none"/>
-        </g>
-        <text id="Sign_in" data-name="Sign in" transform="translate(65.365 32.266)" fill="#fff" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-27.382" y="0">Sign in</tspan></text>
-      </g>
-      <g id="Group_187" data-name="Group 187" transform="translate(1247.635)">
-        <rect id="Rectangle_12-2" data-name="Rectangle 12" width="130" height="50" rx="25" transform="translate(0.365 0.266)" fill="none"/>
-        <text id="Sign_up" data-name="Sign up" transform="translate(65.365 32.266)" fill="#fff" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-30.146" y="0">Sign up</tspan></text>
-      </g>
-    </g>
-    <g id="Info" transform="translate(670 348.004)">
-      <text id="Find_yourself_outside." data-name="Find yourself
-outside." transform="translate(290 83.996)" fill="#fff" font-size="81" font-family="ArchivoBlack-Regular, Archivo"><tspan x="-290.102" y="0">Find Yourself</tspan><tspan x="-184.478" y="109">Outside.</tspan></text>
-      <text id="Book_unique_camping_experiences_on_over_300_000_campsites_cabins_RV_parks_public_parks_and_more." data-name="Book unique camping experiences on over 300,000 campsites, cabins, RV parks, public parks and more." transform="translate(27 247.996)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="14.234" y="19">Book unique camping experiences on over 300,000 campsites, </tspan><tspan x="101.804" y="47">cabins, RV parks, public parks and more.</tspan></text>
-      <g id="Group_85" data-name="Group 85" transform="translate(188 335)">
-        <rect id="Rectangle_12-3" data-name="Rectangle 12" width="205" height="50" rx="25" transform="translate(0 -0.004)" fill="#e76f51"/>
-        <text id="Discover" transform="translate(103 31.996)" fill="#fff" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-35.038" y="0">Discover</tspan></text>
-      </g>
-    </g>
+    <path id="ben-duchac-3fJOXw1RbPo-unsplash-3" data-name="ben-duchac-3fJOXw1RbPo-unsplash" d="M0,0H1920a0,0,0,0,1,0,0V880a200,200,0,0,1-200,200H200A200,200,0,0,1,0,880V0A0,0,0,0,1,0,0Z" transform="translate(0 0.266)" fill="#3b3735" opacity="0.5"/>
   </g>
 </svg>

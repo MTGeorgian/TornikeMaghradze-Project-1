@@ -1,17 +1,35 @@
 body{
 	background-color: #FAF4F2;
 }
+#bg-img{
+	background-image: url(../images/BG.jpg);	
+	max-width: 1920px;
+	width: 100%;
+	height: 1080px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10% 0% 26% 22% / 0% 10% 26% 22% ;
+	position: absolute;
+	top:-33px;
+	z-index: -100;
+}
+/* header */
 #header-container{
 	max-width: 1520px;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 60px;
 }
 #header-left-block{
-	/*width: 100%;*/
+	max-width: 600px;
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
+	justify-content: space-evenly;
 }
 #header-logo-wrapper{
 	background-color: #E76F51;
@@ -19,15 +37,91 @@ body{
 	width: 100%;
 	height: 50px;
 	border-radius: 50px;
-}
-#header-logo-wrappe a{
+	display: flex;
+	justify-content: center;
 	align-items: center;
+}
+#navigation{
+	max-width: 470px;
+	width: 100%;
 }
 #navigation ul{
 	display: flex;
 	justify-content: space-between;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-family: 'Varela Round';
+	color: white;
 }
-#header-left-block{
+#header-right-block{
+	max-width: 240px;
+	width: 100%;
 	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+#header-right-block div a{
+	font-size: 18px;
+	font-family: 'Varela Round';
+	text-transform: capitalize;
+	color: white;
+}
+.header-signIn{
+	max-width: 130px;
+	width: 100%;
+	height: 50px;
+	border: 2px solid white;
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* section one */
+#section-one-wrapper{
+	max-width: 580px;
+	width: 100%;
+	height: 385px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 260px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: space-between;
+}
+#section-one-wrapper h1{
+	max-width: 580px;
+	width: 100%;
+	font-size: 80px;
+	font-family: 'Luckiest Guy';;
+	text-align: center;
+	text-transform: capitalize;
+}
+#section-one-wrapper p{
+	max-width: 500px;
+	width: 100%;
+	font-size: 22px;
+	font-family: 'Caveat';
+	text-align: center;
+}
+.span-capitalaize{
+	text-transform: capitalize;
+}
+.span-uppercase{
+	text-transform: uppercase;
+}
+#section-one-discover{
+	max-width: 205px;
+	width: 100%;
+	height: 50px;
+	background-color: #E76F51;
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+}
+/* section two */
+.section-two {
+	margin-top:850px;
 }
