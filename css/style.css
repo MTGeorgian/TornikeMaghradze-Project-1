@@ -22,7 +22,8 @@ body{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-top: 60px;
+	padding-top: 60px;
+	margin: 0 auto;
 }
 #header-left-block{
 	max-width: 600px;
@@ -83,7 +84,7 @@ body{
 	height: 385px;
 	color: white;
 	margin: 0 auto;
-	margin-top: 260px;
+	margin-top: 200px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -123,5 +124,85 @@ body{
 }
 /* section two */
 .section-two {
-	margin-top:850px;
+	margin-top:300px;
+}
+#service-wrapper{
+	max-width: 1518px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.box-wrapper{
+	max-width: 357px;
+	width: 100%;
+	background-color: white;
+	border-radius: 20px;
+	padding: 60px 40px;
+}
+.box{
+	max-width: 277px;
+	width: 100%;
+	height: 192px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+.box p{
+	font-family: 'Caveat';
+	font-size: 18px;
+}
+.box p:first-letter{
+	text-transform: capitalize;
+}
+.box h3{
+	font-family: 'Luckiest Guy';
+	font-size: 20px;
+	text-transform: capitalize;
+}
+/* section three */
+.section-three {
+	margin-top:150px;
+}
+#destination-container{
+	max-width: 1518px;
+	width: 100%;
+	margin:  0 auto;
+}
+.destination-container-header{
+	max-width: 450px;
+	width: 100%;
+	height: 240px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.destination-container-header h2{
+	font-family: 'Luckiest Guy';
+	font-size: 40px;
+	text-transform: capitalize;
+	text-align: center;
+}
+#destination-img-wrapper{
+	position: relative;
+	max-width: 90px;
+	width: 100%;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#destination-bg{
+	background-color: #E76F51;
+	max-width: 70px;
+	width: 100%;
+	height: 70px;
+	z-index: -1;
+	position: absolute;
+	border-radius: 50%;
 }
