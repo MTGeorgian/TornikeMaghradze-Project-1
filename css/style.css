@@ -170,7 +170,10 @@ body{
 #destination-container{
 	max-width: 1518px;
 	width: 100%;
-	margin:  0 auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .destination-container-header{
 	max-width: 450px;
@@ -205,4 +208,97 @@ body{
 	z-index: -1;
 	position: absolute;
 	border-radius: 50%;
+}
+#destination-box-container{
+	max-width: 1518px;
+	width: 100%;
+	height: 1455px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 55px;
+}
+.destination-box-wrapper{
+	max-width: 357px;
+	width: 100%;
+	height: 465px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	border-radius: 20px;
+	position: relative;
+	padding: 40px;
+}
+div.destination-box-wrapper div:first-child{
+	background-color: white;
+	max-width: 40px;
+	width: 100%;
+	height: 40px;
+	border-radius: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: 60px;
+	top: 60px;
+}
+div.destination-box-wrapper div:nth-child(3){
+	background-color: white;
+	color: #E76F51;
+    font-family: 'Varela Round';
+	font-size: 16px;
+	max-width: 145px;
+	width: 100%;
+	height: 50px;
+	border-radius: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 193px;
+	right: 106px;
+}
+div.destination-box-wrapper h4{
+	font-family: 'Luckiest Guy';
+	font-size: 18px;
+	letter-spacing: .5px;
+	margin-top: 20px;
+	text-transform: capitalize;
+}
+div.destination-box-wrapper p{
+	font-family: 'Varela Round';
+	font-size: 15px;
+	text-align: center;
+	line-height: 25px;
+	max-width: 270px;
+	width: 100%;
+	letter-spacing: .5px;
+}
+div.destination-box-wrapper div:last-child{
+	background-color: #E76F51;
+	color: white;
+	border-radius: 25px;
+	max-width: 185px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Caveat';
+	font-size: 18px;
+	padding: 13px 0px;
+	text-transform: capitalize;
+}
+#view-all{
+	border: 2px solid #E76F51;
+	color: #E76F51;
+	border-radius: 25px;
+	max-width: 185px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Caveat';
+	font-size: 18px;
+	padding: 13px 0px;
+	text-transform: capitalize;
+	margin-top: 60px;
 }
