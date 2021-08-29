@@ -1,3 +1,33 @@
+@media (max-width: 1450px){
+	#service-wrapper{
+		justify-content: center;
+	}
+	.box-wrapper{
+		margin: 25px;
+	}
+	#view-all{
+		margin-top: 500px;
+	}
+	.appContainer{
+		margin-top: 30px;
+	}
+	.destination-box-wrapper{
+		margin-bottom: 20px;
+	}
+	.section-two{
+		margin-top: 280px;
+	}
+}
+@media (max-width: 1330px){
+	.box-wrapper{
+		margin: 35px;
+	}
+}
+@media (max-width: 1087px){
+	#view-all{
+		margin-top: 1500px;
+	}
+}
 @media (max-width: 870px){
 	#header-container{
 		flex-direction: column;
@@ -16,12 +46,11 @@
 		max-width: 869px;
 		flex-direction: column;
     	align-items: start;
-    	margin-left: 5%;
+    	padding-left: 15px;
 	}
 	#burger{
 		display: inline-block;
 	}
-	
 	.header-sign{
 		margin-top: 15px;
 	}
@@ -29,15 +58,98 @@
 		max-width: 769px;
 		width: 90%;
 	}
-	
 	#header-right-block{
 		max-width: 769px;
     	flex-direction: column;
     	align-items: flex-end;
-    	margin-left: 5%;
     	width: 90%;
 	}
 	.navBarActive.burgerBar{
 		display: block;
+	}
+	#section-one-wrapper h1{
+		font-size: 50px;
+	}
+	#section-one-discover{
+		max-width: 135px;
+		height: 40px;
+	}
+	#section-one-wrapper p{
+		max-width: 250px;
+	}
+	.section-two{
+		margin-top: 230px;
+	}
+	#service-wrapper{
+		justify-content: center;
+	}
+	.box-wrapper{
+		margin: 15px;
+	}
+	#view-all{
+		margin-top: 1460px;
+	}
+}
+
+
+@media (max-width: 760px){
+	.upArrow{
+		right: 15px;
+	}
+	.section-two {
+		margin-top:220px;
+	}
+	#service-wrapper{
+		flex-direction: column;
+    	align-items: center;
+	}
+	.box-wrapper,
+	.destination-box-wrapper{
+		margin-bottom: 20px;
+	}
+	#destination-box-container{
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: nowrap;
+	}
+	div.destination-box-wrapper p{
+		font-size: 12px;
+		line-height: 20px;
+		margin: 10px 0px;
+	}
+	#destination-container{
+		flex-direction: column;
+		align-items: center;
+	}
+	#view-all{
+		margin-top: 3700px;
+	}
+	#contact-us-wrapper{
+		flex-direction: column-reverse;
+    	align-items: center;
+	}
+	#contact-us-left-block{
+		margin-top: 30px;
+		text-align: center;
+	}
+	#contact-us-left-block p{
+		max-width: 616px;
+	}
+	#footer-container{
+		flex-direction: column;
+	}
+	#footer-container-right-block{
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+	#footer-container-right-block div{
+		max-width: 300px;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	.appContainer{
+		justify-content: center;
+		margin-top: 430px;
 	}
 }

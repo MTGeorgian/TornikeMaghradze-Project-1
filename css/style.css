@@ -84,7 +84,6 @@ body{
 	text-transform: capitalize;
 	color: white;
 }
-
 .header-sign:hover{
 	display: flex;
 	justify-content: center;
@@ -98,7 +97,7 @@ body{
 #burger{
 	position: absolute;
 	top: 8.5%;
-	right: 5%;
+	right: 10%;
 	font-size: 40px;
 	color: #E76F51;
 	display: none;
@@ -208,12 +207,11 @@ body{
 	height: 1885px;
 	position: absolute;
 	top: -415px;
-	z-index: -20;
+	z-index: -400;
 }
 .section-three {
 	margin-top:150px;
 	position: relative;
-	z-index: 0;
 }
 #destination-container{
 	max-width: 1518px;
@@ -313,7 +311,7 @@ div.destination-box-wrapper div:nth-child(3){
 	align-items: center;
 	position: absolute;
 	top: 193px;
-	right: 106px;
+	/*right: 106px;*/
 }
 div.destination-box-wrapper h4{
 	font-family: 'Luckiest Guy';
@@ -321,6 +319,7 @@ div.destination-box-wrapper h4{
 	letter-spacing: .5px;
 	margin-top: 20px;
 	text-transform: capitalize;
+	text-align: center;
 }
 div.destination-box-wrapper p{
 	font-family: 'Varela Round';
@@ -374,8 +373,8 @@ div.destination-box-wrapper div:last-child:hover{
 	background-position: bottom;
 	background-size: cover;
 	width: 100%;
-	height: 390px;
-	z-index: -1;
+	/*height: 390px;*/
+	z-index: -120;
 }
 .section-four{
 	margin-top: 150px;
@@ -498,7 +497,7 @@ footer p{
 	margin: 0 auto;
 	max-width: 1518px;
 	width: 100%;
-	height: 364px;
+	/*height: 364px;*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -518,44 +517,13 @@ footer p{
 	text-transform: capitalize;
 }
 #footer-app-wrapper{
-	max-width: 400px;
+	max-width: 305px;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	/*align-items: center;*/
 }
-.app-container{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	background-color: black;
-	color: white;
-	max-width: 200px;
-	width: 100%;
-	height: 50px;
-	border-radius: 5px;
-	padding: 10px 20px;
-}
-.app-container:hover{
-	color: #E76F51;
-}
-.app-container div:first-child{
-	margin-right: 10px;
-}
-.app-container i{
-	font-size: 30px;
-}
-.app-container div:last-child div{
-	text-transform: capitalize;
-	font-size: 20px;
-	line-height: 10px;
-	letter-spacing: 1px;
-	margin-top: 5px;
-}
-.app-container span{
-	text-transform: capitalize;
-	font-size: 12px;
+#footer-app-wrapper a img{
 	width: 100%;
 }
 #footer-container-right-block{
@@ -570,6 +538,7 @@ footer p{
 	color: #E76F51;
 }
 #copyRight{
+	margin-top: 50px;
 	font-family: 'Varela Round';
 	font-size: 14px;
 	text-transform: capitalize;
