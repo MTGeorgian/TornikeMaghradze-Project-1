@@ -1,6 +1,8 @@
 @media (max-width: 1450px){
 	#service-wrapper{
-		justify-content: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 	.box-wrapper{
 		margin: 25px;
@@ -30,13 +32,19 @@
 }
 @media (max-width: 870px){
 	#header-container{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.navBarActive{
 		display: none;	
 	}
 	#navigation ul{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		text-align: right;
 	}
 	#navigation ul li{
@@ -44,8 +52,13 @@
 	}
 	#header-left-block{
 		max-width: 869px;
-		flex-direction: column;
-    	align-items: start;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+    	-webkit-box-align: start;
+    	    -ms-flex-align: start;
+    	        align-items: start;
     	padding-left: 15px;
 	}
 	#burger{
@@ -60,8 +73,13 @@
 	}
 	#header-right-block{
 		max-width: 769px;
-    	flex-direction: column;
-    	align-items: flex-end;
+    	-webkit-box-orient: vertical;
+    	-webkit-box-direction: normal;
+    	    -ms-flex-direction: column;
+    	        flex-direction: column;
+    	-webkit-box-align: end;
+    	    -ms-flex-align: end;
+    	        align-items: flex-end;
     	width: 90%;
 	}
 	.navBarActive.burgerBar{
@@ -81,7 +99,9 @@
 		margin-top: 230px;
 	}
 	#service-wrapper{
-		justify-content: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 	.box-wrapper{
 		margin: 15px;
@@ -100,17 +120,28 @@
 		margin-top:220px;
 	}
 	#service-wrapper{
-		flex-direction: column;
-    	align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+    	-webkit-box-align: center;
+    	    -ms-flex-align: center;
+    	        align-items: center;
 	}
 	.box-wrapper,
 	.destination-box-wrapper{
 		margin-bottom: 20px;
 	}
 	#destination-box-container{
-		flex-direction: column;
-		align-items: center;
-		flex-wrap: nowrap;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-ms-flex-wrap: nowrap;
+		    flex-wrap: nowrap;
 	}
 	div.destination-box-wrapper p{
 		font-size: 12px;
@@ -118,15 +149,25 @@
 		margin: 10px 0px;
 	}
 	#destination-container{
-		flex-direction: column;
-		align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	#view-all{
 		margin-top: 3700px;
 	}
 	#contact-us-wrapper{
-		flex-direction: column-reverse;
-    	align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
+    	-webkit-box-align: center;
+    	    -ms-flex-align: center;
+    	        align-items: center;
 	}
 	#contact-us-left-block{
 		margin-top: 30px;
@@ -136,12 +177,21 @@
 		max-width: 616px;
 	}
 	#footer-container{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	#footer-container-right-block{
-		flex-direction: column;
-		flex-wrap: nowrap;
-		align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-ms-flex-wrap: nowrap;
+		    flex-wrap: nowrap;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	#footer-container-right-block div{
 		max-width: 300px;
@@ -149,7 +199,9 @@
 		margin-bottom: 25px;
 	}
 	.appContainer{
-		justify-content: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 		margin-top: 430px;
 	}
 }
