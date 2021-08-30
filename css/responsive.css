@@ -104,7 +104,7 @@
 		        justify-content: center;
 	}
 	.box-wrapper{
-		margin: 15px 0px;
+		margin: 15px;
 	}
 	#view-all{
 		margin-top: 1460px;
@@ -127,6 +127,9 @@
     	-webkit-box-align: center;
     	    -ms-flex-align: center;
     	        align-items: center;
+	}
+	.box-wrapper{
+		margin: 15px 0px;
 	}
 	.box-wrapper,
 	.destination-box-wrapper{
