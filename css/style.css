@@ -98,6 +98,7 @@ body{
 	font-size: 19px;
 	color: #E76F51;
 	text-decoration: underline;
+	transition: 0.5s;
 }
 #header-right-block{
 	max-width: 240px;
@@ -118,6 +119,22 @@ body{
 	text-transform: capitalize;
 	color: white;
 }
+.header-sign{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	max-width: 100px;
+	width: 100%;
+	height: 40px;
+	border-radius: 25px;
+	border: 2px solid none;
+}
 .header-sign:hover{
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -133,6 +150,7 @@ body{
 	height: 40px;
 	border-radius: 25px;
 	border: 2px solid #E76F51;
+	transition: all 0.5s ease; 
 }
 #burger{
 	position: absolute;
@@ -466,6 +484,8 @@ div.destination-box-wrapper div:last-child{
 	font-size: 18px;
 	padding: 13px 0px;
 	text-transform: capitalize;
+	transition: 0.5s;
+	border: 2px solid #fff;
 }
 div.destination-box-wrapper div:last-child:hover{
 	cursor: pointer;
