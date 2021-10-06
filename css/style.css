@@ -94,11 +94,16 @@ body{
 	font-family: 'Varela Round';
 	color: white;
 }
+#navigation ul li{
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-out;
+	transition-delay: 0.25s;
+}
 #navigation ul li:hover{
 	font-size: 19px;
 	color: #E76F51;
-	text-decoration: underline;
-	transition: 0.5s;
+	/*text-decoration: underline;*/
 }
 #header-right-block{
 	max-width: 240px;
@@ -134,6 +139,10 @@ body{
 	height: 40px;
 	border-radius: 25px;
 	border: 2px solid none;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out;
+	transition-delay: 0.3s; 
 }
 .header-sign:hover{
 	display: -webkit-box;
@@ -150,7 +159,6 @@ body{
 	height: 40px;
 	border-radius: 25px;
 	border: 2px solid #E76F51;
-	transition: all 0.5s ease; 
 }
 #burger{
 	position: absolute;
